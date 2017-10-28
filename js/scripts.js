@@ -14,6 +14,8 @@ $(document).ready(function() {
     var q4 = $("#pace").val();
     var q5 = $("#transportation").val();
 
+    $(".result-text").show();
+
     if (q1 === "relax") {
       bali += 1;
     } else if (q1 === "explore") {

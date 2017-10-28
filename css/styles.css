@@ -1,11 +1,18 @@
+.results {
+  display: block;
+  text-align: center;
+}
+
 #bali, #alps, #nyc {
   display: none;
   width: 300px;
   height: auto;
 }
 
+
 .result-text {
   display: none;
+  text-align: center;
 }
 
 .btn {
