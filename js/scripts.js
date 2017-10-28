@@ -66,5 +66,19 @@ $(document).ready(function() {
       $("#alps").show();
     }
 
+    if (nyc > 0 && nyc === bali) {
+      $("#alps").hide();
+      $("#nyc").show();
+      $("#bali").show();
+    } else if (alps > 0 && alps === nyc) {
+      $("#bali").hide();
+      $("#nyc").show();
+      $("#alps").show();
+    } else if (bali > 0 && bali === alps) {
+      $("#nyc").hide();
+      $("#alps").show();
+      $("#bali").show();
+    }
+
   });
 });
