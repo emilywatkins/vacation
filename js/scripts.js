@@ -1,10 +1,12 @@
-var bali = 0;
-var alps = 0;
-var nyc = 0;
+
 
 $(document).ready(function() {
   $("form#questions").submit(function(event) {
     event.preventDefault();
+
+    var bali = 0;
+    var alps = 0;
+    var nyc = 0;
 
     var q1 = $("#activities").val();
     var q2 = $("#accommodations").val();
@@ -51,7 +53,7 @@ $(document).ready(function() {
     } else if (q5 === "skis") {
       alps += 1;
     }
-
+    console.log(bali);
     if (nyc > bali && nyc > alps) {
       $("#alps").hide();
       $("#bali").hide();
