@@ -3,3 +3,17 @@
   width: 300px;
   height: auto;
 }
+
+.result-text {
+  display: none;
+}
+
+.btn {
+  display: block;
+  margin-top: 10px;
+}
+
+.jumbotron {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+}

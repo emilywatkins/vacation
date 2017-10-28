@@ -53,7 +53,7 @@ $(document).ready(function() {
     } else if (q5 === "skis") {
       alps += 1;
     }
-    console.log(bali);
+
     if (nyc > bali && nyc > alps) {
       $("#alps").hide();
       $("#bali").hide();
